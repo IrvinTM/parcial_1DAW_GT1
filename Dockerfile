@@ -1,3 +1,18 @@
-FROM openjdk:17
-COPY target/crud-0.0.1-SNAPSHOT.jar java-app.jar
-ENTRYPOINT [ "java", "-jar", "java-app.jar" ]
+FROM maven:3.9.6-eclipse-temurin-17-focal
+
+
+WORKDIR /app
+
+
+COPY . .
+
+
+RUN mvn clean package -DskipTests
+
+
+COPY target/*.jar /app/my-app.jar
+
+EXPOSE 8080
+
+
+CMD ["java", "-jar", "my-app.jar"]
