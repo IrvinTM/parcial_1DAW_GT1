@@ -7,6 +7,10 @@ Docker: Es necesario tener Docker instalado en tu sistema para ejecutar esta apl
 
 ```git clone https://github.com/IrvinTM/parcial_1DAW_GT1.git```
 
+Abrir el directorio.
+
+```cd parcial_1DAW_GT1```
+
 Ejecutar comando para detener y borrar contenedores, volumenes e imagenes anteriores para hacer una ejecucion limpia.
 
 ```docker-compose down --volumes --rmi local```
