@@ -10,9 +10,7 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 
-COPY target/*.jar /app/my-app.jar
-
 EXPOSE 8080
 
 
-CMD ["java", "-jar", "my-app.jar"]
+CMD ["java", "-jar", "target/crud-0.0.1-SNAPSHOT.jar"]
