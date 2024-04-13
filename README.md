@@ -1,8 +1,15 @@
+### Integrantes:
+
+- Irvin Elias Torres Merlos  - TM22012
+- José Arnoldo Landaverde Gómez -LG22018
+- Axel Rodrigo Juarez Quevedo - JQ22003
+##
+
 ### Requisitos previos:
 ##
 
 Docker: Es necesario tener Docker instalado en tu sistema para ejecutar esta aplicación. Puedes descargar e instalar Docker desde el sitio web oficial: <https://www.docker.com/get-started.>
-
+##
 ### Instrucciones para ejecutar la aplicación:
 ##
 
@@ -26,4 +33,6 @@ docker-compose up -d
 ```
 
 Ahora podemos abrir  <http://localhost:8080/users> y deveriamos obtener la app.
+
+
 
