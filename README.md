@@ -1,22 +1,29 @@
 ### Requisitos previos:
+##
+
 Docker: Es necesario tener Docker instalado en tu sistema para ejecutar esta aplicación. Puedes descargar e instalar Docker desde el sitio web oficial: <https://www.docker.com/get-started.>
 
 ### Instrucciones para ejecutar la aplicación:
+##
+
 
  Clonar el repositorio
 
-```git clone https://github.com/IrvinTM/parcial_1DAW_GT1.git```
-
-Abrir el directorio.
-
-```cd parcial_1DAW_GT1```
+```
+git clone https://github.com/IrvinTM/parcial_1DAW_GT1.git
+```
 
 Ejecutar comando para detener y borrar contenedores, volumenes e imagenes anteriores para hacer una ejecucion limpia.
 
-```docker-compose down --volumes --rmi local```
+```
+docker-compose down --volumes --rmi local
+```
 
 Ejecutar contenedores nuevos con la aplicacion.
 
-```docker-compose up -d```
+```
+docker-compose up -d
+```
 
-Ahora podemos abrir <http://localhost:8080/users> y deveriamos obtener la app.
+Ahora podemos abrir  <http://localhost:8080/users> y deveriamos obtener la app.
+
