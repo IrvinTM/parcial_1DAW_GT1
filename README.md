@@ -29,13 +29,13 @@ cd parcial_1DAW_GT1
 Ejecutar comando para detener y borrar contenedores, volumenes e imagenes anteriores para hacer una ejecucion limpia.
 
 ```
-docker-compose down --volumes --rmi local
+docker compose down --volumes --rmi local
 ```
 
 Ejecutar contenedores nuevos con la aplicacion.
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 Ahora podemos abrir  <http://localhost:8080/users> y deveriamos obtener la app.
